@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Color Picker</title>
+  </head>
+  <body>
+      <div class="wrapper">
+    <header>
+      <form action="">
+        <input class="picker" type="color" value="#e66465" id="picker"/>
+        <select class="scheme" id="scheme">
+          <option value="Monochrome">Monochrome</option>
+          <option value="Analogic">Analogic</option>
+          <option value="Triad">Triad</option>
+        </select>
+        <button class="button" id="get-btn">Get Color Scheme</button>
+      </form>
+    </header>
+    <main id="colors">
+      <div class="block1 block"></div>
+      <div class="block2 block"></div>
+      <div class="block3 block"></div>
+      <div class="block4 block"></div>
+      <div class="block5 block"></div>
+    </main>
+    <footer id="color-codes">
+      <div class="code1 code">#FFFFFF</div>
+      <div class="code2 code">#FFFFFF</div>
+      <div class="code3 code">#FFFFFF</div>
+      <div class="code4 code">#FFFFFF</div>
+      <div class="code5 code">#FFFFFF</div>
+    </footer>
+      </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

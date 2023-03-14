@@ -1,0 +1,190 @@
+/*------------------null------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*----general styles----*/
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 200px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+header {
+  flex: 0 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #111827;
+}
+
+form {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+input,
+select,
+button {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 0;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+input {
+  flex: 0 1 20%;
+  padding: 0;
+  height: auto;
+  align-self: stretch;
+}
+
+select {
+  flex: 1 1 auto;
+  text-align: start;
+  padding-left: 10px;
+}
+
+button {
+  flex: 0 1 20%;
+  font-size: 0.8rem;
+  height: auto;
+  align-self: stretch;
+  background-color: white;
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.block {
+  flex: 1 1 20%;
+}
+
+.block1 {
+  border-right: 1px solid lightgray;
+}
+
+.block2 {
+  border-right: 1px solid lightgray;
+}
+
+.block3 {
+  border-right: 1px solid lightgray;
+}
+
+.block4 {
+  border-right: 1px solid lightgray;
+}
+
+.block5 {
+  border-right: 1px solid lightgray;
+}
+
+footer {
+  display: flex;
+  flex: 0 0 5%;
+}
+
+.code {
+  flex: 1 1 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2vw;
+  padding: 1rem;
+}
